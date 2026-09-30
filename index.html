@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DIVYA.exe</title>
+
+    <style>
+        body {
+            background: #050505;
+            color: #00ff88;
+            font-family: monospace;
+            padding: 30px;
+        }
+
+        .terminal {
+            max-width: 800px;
+            margin: auto;
+            border: 1px solid #00ff88;
+            padding: 25px;
+            box-shadow: 0 0 20px #00ff88;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        button {
+            background: #00ff88;
+            color: black;
+            border: none;
+            padding: 12px 20px;
+            font-family: monospace;
+            cursor: pointer;
+        }
+
+        .section {
+            margin-top: 40px;
+            border-top: 1px solid #164;
+            padding-top: 20px;
+        }
+
+        .locked {
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="terminal">
+
+    <p>> SYSTEM BOOTING...</p>
+    <p>> USER FOUND: DIVYA</p>
+    <p>> STATUS: ONLINE 🟢</p>
+
+    <h1>DIVYA.exe</h1>
+
+    <p>"Still learning. Still building."</p>
+
+    <button onclick="showPortfolio()">
+        ENTER PORTFOLIO
+    </button>
+
+    <div id="portfolio" style="display:none;">
+
+        <div class="section">
+            <h2>> whoami</h2>
+
+            <p>Name: Divya</p>
+            <p>Role: Student</p>
+            <p>Status: Developer in Progress</p>
+        </div>
+
+        <div class="section">
+            <h2>> load_skills</h2>
+
+            <p>Python ████████░░ 80%</p>
+            <p>HTML/CSS █████████░ 90%</p>
+            <p>SQL ███████░░░ 70%</p>
+            <p>C ██████░░░░ 60%</p>
+        </div>
+
+        <div class="section">
+            <h2>> ls projects</h2>
+
+            <p>📁 Library Management System</p>
+            <p>📁 Student Management System</p>
+            <p>📁 Portfolio Website</p>
+        </div>
+
+        <div class="section">
+            <h2>> current_bugs</h2>
+
+            <p>BUG #001 — Need more coding practice</p>
+            <p>BUG #002 — Improve communication</p>
+            <p>BUG #003 — Build more projects</p>
+        </div>
+
+        <div class="section">
+            <h2>> future_missions</h2>
+
+            <p>✅ Learn Python</p>
+            <p>✅ Learn SQL</p>
+            <p>🔒 Internship</p>
+            <p>🔒 Hackathon</p>
+            <p>🔒 Full Stack Developer</p>
+        </div>
+
+        <div class="section">
+            <h2>> system.status</h2>
+
+            <p>MY JOURNEY IS NOT FINISHED.</p>
+            <p>STATUS: COMPILING... ███████░░░</p>
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+function showPortfolio() {
+    document.getElementById("portfolio").style.display = "block";
+}
+</script>
+
+</body>
+</html>
